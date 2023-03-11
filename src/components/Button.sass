@@ -1,0 +1,94 @@
+a.btn
+  display: flex
+  align-items: center
+  justify-content: center
+  text-decoration: none
+  
+.btn
+  font-size: 24px
+  font-weight: 500
+  padding: 16px 24px
+  border-radius: 5px
+  color: #000000
+  border: 1px solid #000000
+  outline: none
+  background: none
+
+
+  max-width: 320px
+  @media screen and (min-width: 744px) and (max-width: 1024px)
+    max-width: 655px
+
+  @media screen and (max-width: 744px)
+    padding: 12px 24px
+    max-width: 480px
+
+  &:hover
+    cursor: pointer
+
+  &-primary
+    background: #175172
+    color: #FFFFFF
+    border: 1.35px solid #175172
+
+    &:hover
+      border-color: #000000
+      color: #000000
+      background: #EBF6FC
+      box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.15)
+
+    &:active, &:target
+      box-shadow: none
+      border-color: #175172
+      color: #175172
+
+  &-secondary
+    border: 1.35px solid #000000
+    background: transparent
+    color: #000000
+
+    &:hover
+      border-color: #175172
+      box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.15)
+      color: #175172
+
+    &:active, &:target
+      border-color: #000000
+      color: #000000
+      background: #EBF6FC
+
+  &-variant
+    background: #129D30
+    color: #FFFFFF
+    border: 1.35px solid #129D30
+
+    &:hover
+      border-color: #000000
+      color: #000000
+      background: rgba(18, 157, 48, 0.4)
+      box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.15)
+
+    &:active, &:target
+      color: #129D30
+      border-color: #129D30
+
+  &-ghost
+    background: none
+    border: none
+    color: #175172
+
+    &:hover
+      color: #000000
+      text-decoration: underline
+
+    &:active, &:target
+      color: #175172
+      background: #EBF6FC
+
+  &:disabled
+    background: #DDDDDD
+    border: none
+    box-shadow: none
+    color: #BBBBBB
+    cursor: not-allowed
+
