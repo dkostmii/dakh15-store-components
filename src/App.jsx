@@ -1,6 +1,7 @@
 import React from 'react'
 import MainPage from './pages/MainPage'
 import ButtonsPage from './pages/ButtonsPage'
+import IconsPage from './pages/IconsPage'
 
 import './App.sass'
 
@@ -12,6 +13,9 @@ import {
 const router = createBrowserRouter([{
     path: 'buttons',
     element: <ButtonsPage />,
+}, {
+    path: 'icons',
+    element: <IconsPage />
 }, {
     path: '/',
     element: <MainPage />,

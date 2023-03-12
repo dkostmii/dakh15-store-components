@@ -23,10 +23,18 @@ a.btn
     padding: 12px 24px
     max-width: 480px
 
+    &-circle
+      font-size: 28px
+      line-height: 35px
+      width: 48px
+      height: 48px
+      border-radius: 48px
+
+
   &:hover
     cursor: pointer
 
-  &-primary
+  &-primary, &-circle
     background: #175172
     color: #FFFFFF
     border: 1.35px solid #175172
@@ -84,6 +92,16 @@ a.btn
     &:active, &:target
       color: #175172
       background: #EBF6FC
+
+
+  &-circle
+    padding: 8px 0
+    width: 66px
+    height: 66px
+    border-radius: 66px
+    font-size: 38px
+    line-height: 48px
+
 
   &:disabled
     background: #DDDDDD
