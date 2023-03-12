@@ -1,7 +1,7 @@
 import React from 'react'
 import Button from '../components/Button'
 
-import './MainPage.sass'
+import './MainPage.scss'
 
 function MainPage() {
     return (

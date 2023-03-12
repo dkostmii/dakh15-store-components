@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 import { ReactComponent as Burger } from '../icons/burger.svg'
 
-import './IconBurger.sass'
+import './IconBurger.scss'
 
 function IconBurger() {
     const [active, setActive] = useState(false)

@@ -1,5 +1,6 @@
 /*
+
 !src/
-*.s[ac]ss
-*.css
+*.js
+*.jsx
 *.svg

@@ -3,7 +3,7 @@ import React from 'react'
 import Icon from '../components/Icon'
 import IconBurger from '../components/IconBurger'
 
-import './IconsPage.sass'
+import './IconsPage.scss'
 
 function IconsPage() {
     return (

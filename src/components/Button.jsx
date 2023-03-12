@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import './Button.sass'
+import './Button.scss'
 
 function Button({ className, onClick, children, disabled, href }) {
     if (typeof href === 'string') {

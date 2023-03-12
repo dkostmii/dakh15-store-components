@@ -7,8 +7,12 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "lint": "eslint ./src/**",
-    "lint-fix": "eslint --fix"
+    "lint:js": "eslint ./src/**",
+    "lint-fix:js": "eslint --fix",
+    "lint:style": "stylelint \"./src/**\"",
+    "lint-fix:style": "stylelint \"./src/**\" --fix",
+    "lint": "npm run lint:js || npm run lint:style",
+    "lint-fix": "npm run lint-fix:js && npm run lint-fix:style"
   },
   "dependencies": {
     "prop-types": "^15.8.1",
@@ -22,7 +26,11 @@
     "@vitejs/plugin-react": "^3.1.0",
     "eslint": "^8.36.0",
     "eslint-plugin-react": "^7.32.2",
+    "postcss-sass": "^0.5.0",
     "sass": "^1.59.2",
+    "stylelint": "^15.2.0",
+    "stylelint-config-standard": "^30.0.1",
+    "stylelint-config-standard-scss": "^7.0.1",
     "vite": "^4.1.0",
     "vite-plugin-svgr": "^2.4.0"
   }

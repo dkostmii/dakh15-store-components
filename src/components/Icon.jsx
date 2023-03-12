@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-import './Icon.sass'
+import './Icon.scss'
 
 function Icon({ className, children }) {
     return (

@@ -1,6 +1,6 @@
 import React from 'react'
 import Button from '../components/Button'
-import './ButtonsPage.sass'
+import './ButtonsPage.scss'
 
 function ButtonsPage() {
     const sampleText = 'Click me!'

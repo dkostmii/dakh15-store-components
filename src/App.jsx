@@ -3,7 +3,7 @@ import MainPage from './pages/MainPage'
 import ButtonsPage from './pages/ButtonsPage'
 import IconsPage from './pages/IconsPage'
 
-import './App.sass'
+import './App.scss'
 
 import {
     createBrowserRouter,
