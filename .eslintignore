@@ -1,2 +1,4 @@
-.eslintrc.cjs
-vite.config.js
+/*
+!src/
+*.sass
+*.svg
