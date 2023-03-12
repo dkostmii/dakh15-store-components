@@ -9,22 +9,27 @@ function ButtonsPage() {
     <div class="page-buttons">
       <label className="primary">Primary button</label>
       <Button className="btn-primary">
-          { sampleText }
+        { sampleText }
       </Button>
 
       <label className="secondary">Secondary button</label>
       <Button className="btn-secondary">
-          { sampleText }
+        { sampleText }
       </Button>
 
       <label className="variant">Variant button</label>
       <Button className="btn-variant">
-          { sampleText }
+        { sampleText }
       </Button>
 
       <label className="ghost">Ghost button</label>
       <Button className="btn-ghost">
-          { sampleText }
+        { sampleText }
+      </Button>
+
+      <label className="circle">Circle button</label>
+      <Button className="btn-circle">
+        { "?" }
       </Button>
     </div>
   )
